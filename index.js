@@ -21,10 +21,20 @@ function ternaryCheckCity(city){
   let response;
 
   city === "NYC" ? response = "Ok, sounds good." : response = "No go.";
-  
+
   return response;
 }
 
 function switchOnCharmFromTip(tip){
   let response;
+
+  if (tip === 'generous') {
+    response = 'Thank you so much.'
+  }
+  else if (tip === 'not as generous') {
+    response = 'Thank you.'
+  }
+  else {
+    response = 'Bye'
+  }
 }
