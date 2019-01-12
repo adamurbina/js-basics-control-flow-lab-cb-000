@@ -12,7 +12,11 @@ function scuberGreetingForFeet(ride){
       break;
     case ride <= 400:
       response = 'This one is on me!';
-      break;  
+      break;
   }
   return response;
+}
+
+function ternaryCheckCity(city){
+  
 }
