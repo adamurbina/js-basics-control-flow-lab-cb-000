@@ -29,12 +29,13 @@ function switchOnCharmFromTip(tip){
   let response;
 
   if (tip === 'generous') {
-    response = 'Thank you so much.'
+    response = 'Thank you so much.';
   }
   else if (tip === 'not as generous') {
-    response = 'Thank you.'
+    response = 'Thank you.';
   }
   else {
-    response = 'Bye.'
+    response = 'Bye.';
   }
+  return response;
 }
