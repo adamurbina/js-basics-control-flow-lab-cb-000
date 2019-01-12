@@ -6,6 +6,7 @@ function scuberGreetingForFeet(ride){
   switch (true) {
     case ride > 2500:
       response = 'No can do.'
+      break;
     case ride <= 400:
       response = 'This one is on me!';
       break;
