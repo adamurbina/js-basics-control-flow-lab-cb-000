@@ -7,10 +7,10 @@ function scuberGreetingForFeet(ride){
     case ride <= 400:
       response = 'This one is on me!';
       break;
-    case ride > 3000:
+    case ride > 2000:
       response = 'I will gladly take your thirty bucks.'
     default:
-    
+
   }
   return response;
 }
